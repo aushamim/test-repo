@@ -1,0 +1,27 @@
+#intro {
+  color: #16a085;
+  font-family: cursive;
+  border: #2980b9 solid 5px;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 2px 10px;
+}
+
+div {
+  font-size: 2em;
+}
+
+#initial {
+  font-size: 2em;
+  color: darkviolet;
+}
+
+.sorry {
+  font-size: 1em;
+  text-align: center;
+  display: none;
+}
+
+.cooking:hover + .sorry {
+  display: block;
+}
